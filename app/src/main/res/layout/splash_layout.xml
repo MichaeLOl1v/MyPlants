@@ -3,26 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:layout_gravity="center_horizontal"
-    android:background="#7C534F"
+    android:gravity="center"
+    android:background="#E8FFCD"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Splash_Activity">
 
     <ImageView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+
+        android:layout_width="225dp"
+        android:layout_height="225dp"
         android:src="@drawable/bonsai"
-        android:layout_marginTop="155sp"
         android:scaleType="centerCrop"
         android:layout_gravity="center"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
         android:text="My-Plants"
         android:textSize="35dp"
-        android:textColor="#9AE1C9"
+        android:shadowColor="#5B755C"
+        android:shadowRadius="11"
+        android:textColor="#023530"
         android:textStyle="bold"
         android:layout_gravity="center"
 
